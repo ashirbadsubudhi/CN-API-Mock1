@@ -2,8 +2,8 @@
 API-Mock1
 # api-mock
 
-#### Install dependencies
-npm install express
-npm install mongoose
-#### then run 
-### nodemon Index.js
+### Install dependencies
+#### npm install express
+#### npm install mongoose
+### then to start App 
+#### nodemon Index.js
