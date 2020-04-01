@@ -35,7 +35,7 @@ module.exports.allProducts = async function(req, res){
 module.exports.delete = async function(req, res){
     try{
         let product = await Product.findByIdAndDelete(req.params.id);
-        return response.json(200, {
+        return res.json(200, {
             data: {
                 message: "product deleted"
             }
